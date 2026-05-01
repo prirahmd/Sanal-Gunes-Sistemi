@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "VR Eğitim Laboratuvarı.sln"
+    "dotnet.defaultSolution": "Sanal Güneş Sistemi.sln"
 }
