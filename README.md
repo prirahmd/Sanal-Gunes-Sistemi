@@ -1,2 +1,2 @@
-# VR Eğitim Laboratuvarı 
+# Sanal-Gunes-Sistemi
 
