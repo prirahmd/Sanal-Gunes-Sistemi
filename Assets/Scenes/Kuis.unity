@@ -15990,6 +15990,7 @@ GameObject:
   - component: {fileID: 1217022069}
   - component: {fileID: 1217022071}
   - component: {fileID: 1217022070}
+  - component: {fileID: 1217022072}
   m_Layer: 5
   m_Name: StudentInfoPanel
   m_TagString: Untagged
@@ -16059,6 +16060,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1217022068}
   m_CullTransparentMesh: 1
+--- !u!114 &1217022072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217022068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ef93b82f9ea5044a453b30c117f586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameInputField: {fileID: 245617598}
+  studentNumberInputField: {fileID: 580269068}
+  warningText: {fileID: 1037194670}
+  studentInfoPanel: {fileID: 1217022068}
+  quizPanel: {fileID: 2144156760}
+  quizManager: {fileID: 2025749417}
 --- !u!4 &1219365508 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2774220344278030320, guid: 337fb6b0f9a573e4898234b834ab75d7, type: 3}
