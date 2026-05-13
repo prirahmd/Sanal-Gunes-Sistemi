@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Assets/infografik/Gunes.mp4 filter=lfs diff=lfs merge=lfs -text
+Assets/ThirdParty/**/*.fbx filter=lfs diff=lfs merge=lfs -text
+Assets/firebase_unity_sdk_13.10.0/** filter=lfs diff=lfs merge=lfs -text
+Library/** filter=lfs diff=lfs merge=lfs -text
